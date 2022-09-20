@@ -1,8 +1,37 @@
 # DroidGem
-DroidGem is a tool for permission forecasting in Android apps.
+DroidGem is a tool for permission forecasting in Android apps. It aims to provide fine-grain control of Android apps through unsupervised and supervised graph representation learning.
+
+## Requirements
+
+- Android API: Level 30
+- JAVA Version: 1.8 or above
+- Python Version: 3.8
+- Python Library:
+  - numpy 1.22.1
+  - matplotlib 3.5.1
+  - networkx 2.6.3
+  - pydot 1.4.2
+  - karateclub 1.2.3
+  - scikit-learn 1.0.2
+  - xgboost 1.5.2
+  
+## Usage
+The three phases of DroidGem are:
+1. Static Program Analysis
+2. Whole Graph Embedding
+3. Supervised Learning
+
+### Execution
+1. Clone this repository to your computer and then specify "android.dir" in runapm.sh file. This file is the main file for executing DroidGem.
+Before running APM, you have to copy a new Android apk in the APM input folder to complete the following steps for Supervised Graph Representation Learning:
+2. APM Static Program Analysis for prediction (in Java): Output text files (containing GUI found, API signatures, Android permissions used) and digraph plots are created in the APM output folders.
+3. APM Digraph Data Analysis for prediction (in Python): The digraph plots are pre-processed and whole graph embeddings output text files (g2v_names_pred.txt and g2v_embeddings_pred.txt) are created in the APM output folder.
+4. APM Supervised Learning for training/ prediction (in Python): The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files.
+
+You can check all the ouput text files and log files to analyze the run time and binary classification in the Ensemble results. You will need to housekeep all APM input, output, temp and log folders before running APM on another new Android apk.
+1. Clone this repository to your computer and then specify "android.dir" in runapm.sh file. This file is the main file for executing DroidGem.
 
 ## List of apps used for the evaluation
-
 ### Benign Apps
 #### SG Smart Nation Apps (Available at: https://www.smartnation.gov.sg/community/apps-for-you)
 - ActiveSG v2.7.12 apkpure.com.apk
