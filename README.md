@@ -29,7 +29,7 @@ Before running APM, you have to copy a new Android apk in the APM input folder t
 4. APM Supervised Learning for training/ prediction (in Python): The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files.
 
 You can check all the ouput text files and log files to analyze the run time and binary classification in the Ensemble results. You will need to housekeep all APM input, output, temp and log folders before running APM on another new Android apk.
-1. Clone this repository to your computer and then specify "android.dir" in runapm.sh file. This file is the main file for executing DroidGem.
+
 
 ## List of apps used for the evaluation
 ### Benign Apps
