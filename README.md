@@ -23,10 +23,11 @@ The three phases of DroidGem are:
 
 ### Execution
 1. Clone this repository to your computer and then specify "android.dir" in runapm.sh file. This file is the main file for executing DroidGem.
-Before running APM, you have to copy a new Android apk in the APM input folder to complete the following steps for Supervised Graph Representation Learning:
-2. APM Static Program Analysis for prediction (in Java): Output text files (containing GUI found, API signatures, Android permissions used) and digraph plots are created in the APM output folders.
-3. APM Digraph Data Analysis for prediction (in Python): The digraph plots are pre-processed and whole graph embeddings output text files (g2v_names_pred.txt and g2v_embeddings_pred.txt) are created in the APM output folder.
-4. APM Supervised Learning for training/ prediction (in Python): The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files.
+2. Create 7 empty folders: input, log, temp, gdot3, output, output2, and output3 in the cloned folder of DroidGem.
+3. Before running APM, you have to copy a new Android apk in the APM input folder to complete the following steps for Supervised Graph Representation Learning:
+4. APM Static Program Analysis for prediction (in Java): Output text files (containing GUI found, API signatures, Android permissions used) and digraph plots are created in the APM output folders.
+5. APM Digraph Data Analysis for prediction (in Python): The digraph plots are pre-processed and whole graph embeddings output text files (g2v_names_pred.txt and g2v_embeddings_pred.txt) are created in the APM output folder.
+6. APM Supervised Learning for training/ prediction (in Python): The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files.
 
 You can check all the ouput text files and log files to analyze the run time and binary classification in the Ensemble results. You will need to housekeep all APM input, output, temp and log folders before running APM on another new Android apk.
 
