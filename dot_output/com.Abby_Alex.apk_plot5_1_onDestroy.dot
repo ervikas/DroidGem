@@ -1,0 +1,22 @@
+digraph "<com.Abby_Alex.record_Activity: void onDestroy()> -" {
+    "<com.Abby_Alex.record_Activity: void onDestroy()>";
+    "<android.app.Activity: void onDestroy()>";
+    "<com.Abby_Alex.record_Activity: void onDestroy()>"->"<android.app.Activity: void onDestroy()>" [label="<com.Abby_Alex.record_Activity: void onDestroy()>/<android.app.Activity: void onDestroy()>",];
+    "r0 := @this: com.Abby_Alex.record_Activity";
+    "<com.Abby_Alex.record_Activity: void onDestroy()>"->"r0 := @this: com.Abby_Alex.record_Activity" [label="enter",];
+    "$r1 = r0.<com.Abby_Alex.record_Activity: android.database.sqlite.SQLiteDatabase mSQlite>";
+    "r0 := @this: com.Abby_Alex.record_Activity"->"$r1 = r0.<com.Abby_Alex.record_Activity: android.database.sqlite.SQLiteDatabase mSQlite>" [label="body",];
+    "$z0 = virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: boolean isOpen()>()";
+    "$r1 = r0.<com.Abby_Alex.record_Activity: android.database.sqlite.SQLiteDatabase mSQlite>"->"$z0 = virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: boolean isOpen()>()" [label="body",];
+    "if $z0 == 0 goto specialinvoke r0.<android.app.Activity: void onDestroy()>()";
+    "$z0 = virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: boolean isOpen()>()"->"if $z0 == 0 goto specialinvoke r0.<android.app.Activity: void onDestroy()>()" [label="body",];
+    "if $z0 == 0 goto specialinvoke r0.<android.app.Activity: void onDestroy()>()"->"$r1 = r0.<com.Abby_Alex.record_Activity: android.database.sqlite.SQLiteDatabase mSQlite>" [label="body",];
+    "virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: void close()>()";
+    "$r1 = r0.<com.Abby_Alex.record_Activity: android.database.sqlite.SQLiteDatabase mSQlite>"->"virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: void close()>()" [label="body",];
+    "specialinvoke r0.<android.app.Activity: void onDestroy()>()";
+    "virtualinvoke $r1.<android.database.sqlite.SQLiteDatabase: void close()>()"->"specialinvoke r0.<android.app.Activity: void onDestroy()>()" [label="body",];
+    "return <com.Abby_Alex.record_Activity: void onDestroy()>";
+    "specialinvoke r0.<android.app.Activity: void onDestroy()>()"->"return <com.Abby_Alex.record_Activity: void onDestroy()>" [label="body",];
+    "return <com.Abby_Alex.record_Activity: void onDestroy()>"->"<com.Abby_Alex.record_Activity: void onDestroy()>" [label="return",];
+    "if $z0 == 0 goto specialinvoke r0.<android.app.Activity: void onDestroy()>()"->"specialinvoke r0.<android.app.Activity: void onDestroy()>()" [label="body",];
+}

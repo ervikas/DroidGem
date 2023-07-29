@@ -1,0 +1,16 @@
+digraph "<com.Abby_Alex.LoveBARActivity: void onPause()> -" {
+    "<com.Abby_Alex.LoveBARActivity: void onPause()>";
+    "<android.app.Activity: void onPause()>";
+    "<com.Abby_Alex.LoveBARActivity: void onPause()>"->"<android.app.Activity: void onPause()>" [label="<com.Abby_Alex.LoveBARActivity: void onPause()>/<android.app.Activity: void onPause()>",];
+    "r0 := @this: com.Abby_Alex.LoveBARActivity";
+    "<com.Abby_Alex.LoveBARActivity: void onPause()>"->"r0 := @this: com.Abby_Alex.LoveBARActivity" [label="enter",];
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>";
+    "r0 := @this: com.Abby_Alex.LoveBARActivity"->"$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>" [label="body",];
+    "virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)";
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>"->"virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)" [label="body",];
+    "specialinvoke r0.<android.app.Activity: void onPause()>()";
+    "virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)"->"specialinvoke r0.<android.app.Activity: void onPause()>()" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onPause()>";
+    "specialinvoke r0.<android.app.Activity: void onPause()>()"->"return <com.Abby_Alex.LoveBARActivity: void onPause()>" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onPause()>"->"<com.Abby_Alex.LoveBARActivity: void onPause()>" [label="return",];
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/username_view" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="写个标签吧~" />
+    <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/popup_edit" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:hint="今天我们一起拍照了~" android:capitalize="none" />
+    <LinearLayout android:gravity="center" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <Button android:id="@id/popup_BtnOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" android:layout_weight="100.0" />
+        <Button android:id="@id/popup_Btncancle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" android:layout_weight="100.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+digraph "<com.waps.OffersWebView: void onResume()> -" {
+    "<com.waps.OffersWebView: void onResume()>";
+    "<android.app.Activity: void onResume()>";
+    "<com.waps.OffersWebView: void onResume()>"->"<android.app.Activity: void onResume()>" [label="<com.waps.OffersWebView: void onResume()>/<android.app.Activity: void onResume()>",];
+    "r0 := @this: com.waps.OffersWebView";
+    "<com.waps.OffersWebView: void onResume()>"->"r0 := @this: com.waps.OffersWebView" [label="enter",];
+    "$r1 = r0.<com.waps.OffersWebView: java.lang.String k>";
+    "r0 := @this: com.waps.OffersWebView"->"$r1 = r0.<com.waps.OffersWebView: java.lang.String k>" [label="body",];
+    "if $r1 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()";
+    "$r1 = r0.<com.waps.OffersWebView: java.lang.String k>"->"if $r1 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "$r2 = r0.<com.waps.OffersWebView: android.webkit.WebView j>";
+    "if $r1 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()"->"$r2 = r0.<com.waps.OffersWebView: android.webkit.WebView j>" [label="body",];
+    "if $r2 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()";
+    "$r2 = r0.<com.waps.OffersWebView: android.webkit.WebView j>"->"if $r2 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "if $r2 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()"->"$r2 = r0.<com.waps.OffersWebView: android.webkit.WebView j>" [label="body",];
+    "$r2 = r0.<com.waps.OffersWebView: android.webkit.WebView j>"->"$r1 = r0.<com.waps.OffersWebView: java.lang.String k>" [label="body",];
+    "virtualinvoke $r2.<android.webkit.WebView: void loadUrl(java.lang.String)>($r1)";
+    "$r1 = r0.<com.waps.OffersWebView: java.lang.String k>"->"virtualinvoke $r2.<android.webkit.WebView: void loadUrl(java.lang.String)>($r1)" [label="body",];
+    "specialinvoke r0.<android.app.Activity: void onResume()>()";
+    "virtualinvoke $r2.<android.webkit.WebView: void loadUrl(java.lang.String)>($r1)"->"specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "return <com.waps.OffersWebView: void onResume()>";
+    "specialinvoke r0.<android.app.Activity: void onResume()>()"->"return <com.waps.OffersWebView: void onResume()>" [label="body",];
+    "return <com.waps.OffersWebView: void onResume()>"->"<com.waps.OffersWebView: void onResume()>" [label="return",];
+    "if $r2 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()"->"specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "if $r1 == null goto specialinvoke r0.<android.app.Activity: void onResume()>()"->"specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "<android.webkit.WebView: void loadUrl(java.lang.String)>";
+    "<com.waps.OffersWebView: void onResume()>"->"<android.webkit.WebView: void loadUrl(java.lang.String)>" [label="<com.waps.OffersWebView: void onResume()>/<android.webkit.WebView: void loadUrl(java.lang.String)>",];
+}

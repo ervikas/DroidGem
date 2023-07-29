@@ -1,0 +1,182 @@
+2023-07-27 20:19:28.901 [main] INFO  apmsa.APMMain - APMSA start
+2023-07-27 20:19:28.903 [main] INFO  apmsa.APMMain - Load map
+2023-07-27 20:19:28.903 [main] INFO  apmsa.APMMapping - Load map start
+2023-07-27 20:19:28.927 [main] INFO  apmsa.APMMapping - Load map end
+2023-07-27 20:19:28.937 [main] INFO  apmsa.APMMain - apk 1 - biz.nlnrnqn.noknlnkno.apk
+2023-07-27 20:19:28.938 [main] INFO  apmsa.APMResource - Decode start
+2023-07-27 20:19:30.423 [main] INFO  apmsa.APMResource - Decode end - 0
+2023-07-27 20:19:30.424 [main] INFO  apmsa.APMResource - Decode run time - 0 min 1 sec
+2023-07-27 20:19:30.424 [main] INFO  apmsa.APMResource - Manifest start
+2023-07-27 20:19:30.428 [main] INFO  apmsa.APMResource - Mainfest end
+2023-07-27 20:19:30.428 [main] INFO  apmsa.APMResource - Res values start
+2023-07-27 20:19:30.428 [main] INFO  apmsa.APMResource - Res values end
+2023-07-27 20:19:30.429 [main] INFO  apmsa.APMResource - Res layout start
+2023-07-27 20:19:30.431 [main] INFO  apmsa.APMResource - Res layout end
+2023-07-27 20:19:30.441 [main] INFO  apmsa.APMCallGraph - Launchable - .a57
+2023-07-27 20:19:30.441 [main] INFO  apmsa.APMCallGraph - Package - biz.nlnrnqn.noknlnkno biz.nlnrnqn.noknlnkno
+2023-07-27 20:19:30.441 [main] INFO  apmsa.APMCallGraph - Activities - [.a57, .b17]
+2023-07-27 20:19:30.441 [main] INFO  apmsa.APMCallGraph - Permissions - [android.permission.INTERNET, android.permission.GET_TASKS, android.permission.ACCESS_NETWORK_STATE, android.permission.SET_WALLPAPER, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.WRITE_EXTERNAL_STORAGE]
+2023-07-27 20:19:30.441 [main] INFO  apmsa.APMCallGraph - SPARK start
+2023-07-27 20:19:38.197 [main] INFO  apmsa.APMCallGraph - SPARK end
+2023-07-27 20:19:38.197 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:19:38.197 [main] INFO  apmsa.APMCallGraph - Call graph - size 100
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMCallGraph - Forward search - 0
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMCallGraph - Backward search - 0
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMMain - Save dataset start - _SPARK
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMMain - Save dataset end - _SPARK
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMMain - SPARK run time - 0 min 7 sec
+2023-07-27 20:19:38.205 [main] INFO  apmsa.APMCallGraph - CHA start
+2023-07-27 20:19:39.981 [main] INFO  apmsa.APMCallGraph - CHA end
+2023-07-27 20:19:39.981 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:19:39.981 [main] INFO  apmsa.APMCallGraph - Call graph - size 1886
+2023-07-27 20:19:40.158 [main] INFO  apmsa.APMCallGraph - Forward search - 157
+2023-07-27 20:19:40.158 [main] INFO  apmsa.APMCallGraph - Backward search - 157
+2023-07-27 20:19:40.158 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:19:40.159 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:19:40.164 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:19:40.164 [main] INFO  apmsa.APMMain - Save dataset start - _CHA
+2023-07-27 20:19:40.165 [main] INFO  apmsa.APMMain - Save dataset end - _CHA
+2023-07-27 20:19:40.165 [main] INFO  apmsa.APMMain - CHA run time - 0 min 1 sec
+2023-07-27 20:19:40.165 [main] INFO  apmsa.APMMain - Save dataset start - _FULL
+2023-07-27 20:19:40.165 [main] INFO  apmsa.APMMain - Save dataset end - _FULL
+2023-07-27 20:19:40.165 [main] INFO  apmsa.APMMain - Save dataset start - _TEST
+2023-07-27 20:19:40.166 [main] INFO  apmsa.APMMain - Save dataset end - _TEST
+2023-07-27 20:19:40.166 [main] INFO  apmsa.APMMain - apk 1 run time - 0 min 11 sec
+2023-07-27 20:19:40.166 [main] INFO  apmsa.APMMain - apk 2 - com.Abby_Alex.apk
+2023-07-27 20:19:40.166 [main] INFO  apmsa.APMResource - Decode start
+2023-07-27 20:19:41.831 [main] INFO  apmsa.APMResource - Decode end - 0
+2023-07-27 20:19:41.831 [main] INFO  apmsa.APMResource - Decode run time - 0 min 1 sec
+2023-07-27 20:19:41.831 [main] INFO  apmsa.APMResource - Manifest start
+2023-07-27 20:19:41.832 [main] INFO  apmsa.APMResource - Mainfest end
+2023-07-27 20:19:41.832 [main] INFO  apmsa.APMResource - Res values start
+2023-07-27 20:19:41.832 [main] INFO  apmsa.APMResource - Res values end
+2023-07-27 20:19:41.832 [main] INFO  apmsa.APMResource - Res layout start
+2023-07-27 20:19:41.834 [main] INFO  apmsa.APMResource - Res layout end
+2023-07-27 20:19:41.834 [main] INFO  apmsa.APMCallGraph - Launchable - .LoveBARActivity
+2023-07-27 20:19:41.834 [main] INFO  apmsa.APMCallGraph - Package - com.Abby_Alex com.Abby_Alex
+2023-07-27 20:19:41.834 [main] INFO  apmsa.APMCallGraph - Activities - [com.waps.OffersWebView, .about_Activity, .Edit_Activity, .audio_Activity, .LoveBARActivity, .bianji_Activity, .vedio_Activity, .record_Activity, .set_Activity, .box_Activity]
+2023-07-27 20:19:41.834 [main] INFO  apmsa.APMCallGraph - Permissions - [android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_NETWORK_STATE, android.permission.GET_TASKS, android.permission.ACCESS_WIFI_STATE, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.CAMERA, android.permission.RECORD_AUDIO, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE]
+2023-07-27 20:19:41.835 [main] INFO  apmsa.APMCallGraph - SPARK start
+2023-07-27 20:19:44.219 [main] INFO  apmsa.APMCallGraph - SPARK end
+2023-07-27 20:19:44.219 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:19:44.219 [main] INFO  apmsa.APMCallGraph - Call graph - size 3291
+2023-07-27 20:19:44.696 [main] INFO  apmsa.APMCallGraph - Forward search - 5
+2023-07-27 20:19:44.696 [main] INFO  apmsa.APMCallGraph - Backward search - 4
+2023-07-27 20:19:44.696 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:19:44.696 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:19:44.698 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:19:44.698 [main] INFO  apmsa.APMMain - Save dataset start - _SPARK
+2023-07-27 20:19:44.698 [main] INFO  apmsa.APMMain - Save dataset end - _SPARK
+2023-07-27 20:19:44.698 [main] INFO  apmsa.APMMain - SPARK run time - 0 min 2 sec
+2023-07-27 20:19:44.698 [main] INFO  apmsa.APMCallGraph - CHA start
+2023-07-27 20:19:46.644 [main] INFO  apmsa.APMCallGraph - CHA end
+2023-07-27 20:19:46.644 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:19:46.644 [main] INFO  apmsa.APMCallGraph - Call graph - size 5493
+2023-07-27 20:19:46.687 [main] INFO  apmsa.APMCallGraph - Forward search - 24
+2023-07-27 20:19:46.687 [main] INFO  apmsa.APMCallGraph - Backward search - 39
+2023-07-27 20:19:46.687 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:19:46.687 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - Save dataset start - _CHA
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - Save dataset end - _CHA
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - CHA run time - 0 min 1 sec
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - Save dataset start - _FULL
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - Save dataset end - _FULL
+2023-07-27 20:19:46.689 [main] INFO  apmsa.APMMain - Save dataset start - _TEST
+2023-07-27 20:19:46.690 [main] INFO  apmsa.APMMain - Save dataset end - _TEST
+2023-07-27 20:19:46.690 [main] INFO  apmsa.APMMain - apk 2 run time - 0 min 6 sec
+2023-07-27 20:19:46.690 [main] INFO  apmsa.APMMain - APMSA end
+2023-07-27 20:20:41.523 [main] INFO  apmsa.APMMain - APMSA start
+2023-07-27 20:20:41.529 [main] INFO  apmsa.APMMain - Load map
+2023-07-27 20:20:41.529 [main] INFO  apmsa.APMMapping - Load map start
+2023-07-27 20:20:41.553 [main] INFO  apmsa.APMMapping - Load map end
+2023-07-27 20:20:41.559 [main] INFO  apmsa.APMMain - apk 1 - biz.nlnrnqn.noknlnkno.apk
+2023-07-27 20:20:41.560 [main] INFO  apmsa.APMResource - Decode start
+2023-07-27 20:20:43.017 [main] INFO  apmsa.APMResource - Decode end - 0
+2023-07-27 20:20:43.018 [main] INFO  apmsa.APMResource - Decode run time - 0 min 1 sec
+2023-07-27 20:20:43.018 [main] INFO  apmsa.APMResource - Manifest start
+2023-07-27 20:20:43.022 [main] INFO  apmsa.APMResource - Mainfest end
+2023-07-27 20:20:43.022 [main] INFO  apmsa.APMResource - Res values start
+2023-07-27 20:20:43.023 [main] INFO  apmsa.APMResource - Res values end
+2023-07-27 20:20:43.023 [main] INFO  apmsa.APMResource - Res layout start
+2023-07-27 20:20:43.025 [main] INFO  apmsa.APMResource - Res layout end
+2023-07-27 20:20:43.036 [main] INFO  apmsa.APMCallGraph - Launchable - .a57
+2023-07-27 20:20:43.036 [main] INFO  apmsa.APMCallGraph - Package - biz.nlnrnqn.noknlnkno biz.nlnrnqn.noknlnkno
+2023-07-27 20:20:43.036 [main] INFO  apmsa.APMCallGraph - Activities - [.a57, .b17]
+2023-07-27 20:20:43.036 [main] INFO  apmsa.APMCallGraph - Permissions - [android.permission.INTERNET, android.permission.GET_TASKS, android.permission.ACCESS_NETWORK_STATE, android.permission.SET_WALLPAPER, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.WRITE_EXTERNAL_STORAGE]
+2023-07-27 20:20:43.036 [main] INFO  apmsa.APMCallGraph - SPARK start
+2023-07-27 20:20:44.982 [main] INFO  apmsa.APMCallGraph - SPARK end
+2023-07-27 20:20:44.982 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:20:44.982 [main] INFO  apmsa.APMCallGraph - Call graph - size 100
+2023-07-27 20:20:44.990 [main] INFO  apmsa.APMCallGraph - Forward search - 0
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMCallGraph - Backward search - 0
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMMain - Save dataset start - _SPARK
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMMain - Save dataset end - _SPARK
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMMain - SPARK run time - 0 min 1 sec
+2023-07-27 20:20:44.991 [main] INFO  apmsa.APMCallGraph - CHA start
+2023-07-27 20:20:46.808 [main] INFO  apmsa.APMCallGraph - CHA end
+2023-07-27 20:20:46.808 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:20:46.808 [main] INFO  apmsa.APMCallGraph - Call graph - size 1886
+2023-07-27 20:20:46.957 [main] INFO  apmsa.APMCallGraph - Forward search - 157
+2023-07-27 20:20:46.957 [main] INFO  apmsa.APMCallGraph - Backward search - 157
+2023-07-27 20:20:46.957 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:20:46.957 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:20:46.963 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:20:46.963 [main] INFO  apmsa.APMMain - Save dataset start - _CHA
+2023-07-27 20:20:46.963 [main] INFO  apmsa.APMMain - Save dataset end - _CHA
+2023-07-27 20:20:46.963 [main] INFO  apmsa.APMMain - CHA run time - 0 min 1 sec
+2023-07-27 20:20:46.963 [main] INFO  apmsa.APMMain - Save dataset start - _FULL
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMMain - Save dataset end - _FULL
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMMain - Save dataset start - _TEST
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMMain - Save dataset end - _TEST
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMMain - apk 1 run time - 0 min 5 sec
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMMain - apk 2 - com.Abby_Alex.apk
+2023-07-27 20:20:46.964 [main] INFO  apmsa.APMResource - Decode start
+2023-07-27 20:20:48.575 [main] INFO  apmsa.APMResource - Decode end - 0
+2023-07-27 20:20:48.575 [main] INFO  apmsa.APMResource - Decode run time - 0 min 1 sec
+2023-07-27 20:20:48.576 [main] INFO  apmsa.APMResource - Manifest start
+2023-07-27 20:20:48.576 [main] INFO  apmsa.APMResource - Mainfest end
+2023-07-27 20:20:48.576 [main] INFO  apmsa.APMResource - Res values start
+2023-07-27 20:20:48.577 [main] INFO  apmsa.APMResource - Res values end
+2023-07-27 20:20:48.577 [main] INFO  apmsa.APMResource - Res layout start
+2023-07-27 20:20:48.578 [main] INFO  apmsa.APMResource - Res layout end
+2023-07-27 20:20:48.579 [main] INFO  apmsa.APMCallGraph - Launchable - .LoveBARActivity
+2023-07-27 20:20:48.579 [main] INFO  apmsa.APMCallGraph - Package - com.Abby_Alex com.Abby_Alex
+2023-07-27 20:20:48.579 [main] INFO  apmsa.APMCallGraph - Activities - [com.waps.OffersWebView, .about_Activity, .Edit_Activity, .audio_Activity, .LoveBARActivity, .bianji_Activity, .vedio_Activity, .record_Activity, .set_Activity, .box_Activity]
+2023-07-27 20:20:48.579 [main] INFO  apmsa.APMCallGraph - Permissions - [android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_NETWORK_STATE, android.permission.GET_TASKS, android.permission.ACCESS_WIFI_STATE, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.CAMERA, android.permission.RECORD_AUDIO, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE]
+2023-07-27 20:20:48.579 [main] INFO  apmsa.APMCallGraph - SPARK start
+2023-07-27 20:20:51.092 [main] INFO  apmsa.APMCallGraph - SPARK end
+2023-07-27 20:20:51.092 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:20:51.092 [main] INFO  apmsa.APMCallGraph - Call graph - size 3291
+2023-07-27 20:20:51.535 [main] INFO  apmsa.APMCallGraph - Forward search - 5
+2023-07-27 20:20:51.535 [main] INFO  apmsa.APMCallGraph - Backward search - 4
+2023-07-27 20:20:51.535 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:20:51.535 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:20:51.537 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:20:51.537 [main] INFO  apmsa.APMMain - Save dataset start - _SPARK
+2023-07-27 20:20:51.537 [main] INFO  apmsa.APMMain - Save dataset end - _SPARK
+2023-07-27 20:20:51.537 [main] INFO  apmsa.APMMain - SPARK run time - 0 min 2 sec
+2023-07-27 20:20:51.537 [main] INFO  apmsa.APMCallGraph - CHA start
+2023-07-27 20:20:53.488 [main] INFO  apmsa.APMCallGraph - CHA end
+2023-07-27 20:20:53.488 [main] INFO  apmsa.APMCallGraph - Permission start
+2023-07-27 20:20:53.488 [main] INFO  apmsa.APMCallGraph - Call graph - size 5493
+2023-07-27 20:20:53.537 [main] INFO  apmsa.APMCallGraph - Forward search - 24
+2023-07-27 20:20:53.537 [main] INFO  apmsa.APMCallGraph - Backward search - 39
+2023-07-27 20:20:53.537 [main] INFO  apmsa.APMCallGraph - Permission end
+2023-07-27 20:20:53.537 [main] INFO  apmsa.APMResource - Resource start
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMResource - Resource end
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset start - _CHA
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset end - _CHA
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - CHA run time - 0 min 2 sec
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset start - _FULL
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset end - _FULL
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset start - _TEST
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - Save dataset end - _TEST
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - apk 2 run time - 0 min 6 sec
+2023-07-27 20:20:53.539 [main] INFO  apmsa.APMMain - APMSA end

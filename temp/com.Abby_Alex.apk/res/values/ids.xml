@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="about_title" />
+    <item type="id" name="audio_image" />
+    <item type="id" name="linear" />
+    <item type="id" name="audio_start" />
+    <item type="id" name="audio_stop" />
+    <item type="id" name="audio_back" />
+    <item type="id" name="edit_edit" />
+    <item type="id" name="edit_save" />
+    <item type="id" name="edit_cancle" />
+    <item type="id" name="item_name" />
+    <item type="id" name="item_time" />
+    <item type="id" name="miniAdLinearLayout" />
+    <item type="id" name="linearLayout1" />
+    <item type="id" name="main_img_edit" />
+    <item type="id" name="main_img_camrea" />
+    <item type="id" name="linearLayout2" />
+    <item type="id" name="main_img_audio" />
+    <item type="id" name="main_img_vedio" />
+    <item type="id" name="main_img_recode" />
+    <item type="id" name="main_image_set" />
+    <item type="id" name="main_time" />
+    <item type="id" name="username_view" />
+    <item type="id" name="popup_edit" />
+    <item type="id" name="LinearLayout01" />
+    <item type="id" name="popup_BtnOK" />
+    <item type="id" name="popup_Btncancle" />
+    <item type="id" name="record_list" />
+    <item type="id" name="linear3" />
+    <item type="id" name="linear_set" />
+    <item type="id" name="text_seller_tel" />
+    <item type="id" name="seller_call" />
+    <item type="id" name="linear_count" />
+    <item type="id" name="text_seller_addr" />
+    <item type="id" name="linear_advoice" />
+    <item type="id" name="linear_about" />
+    <item type="id" name="linear_more" />
+    <item type="id" name="dialog_text1" />
+    <item type="id" name="dialog_edit_text" />
+    <item type="id" name="dialog_text2" />
+    <item type="id" name="dialog_edit_time" />
+    <item type="id" name="surface" />
+    <item type="id" name="vedio_start" />
+    <item type="id" name="vedio_stop" />
+    <item type="id" name="vedio_back" />
+</resources>

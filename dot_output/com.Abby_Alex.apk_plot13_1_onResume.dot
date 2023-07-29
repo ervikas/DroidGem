@@ -1,0 +1,20 @@
+digraph "<com.Abby_Alex.LoveBARActivity: void onResume()> -" {
+    "<com.Abby_Alex.LoveBARActivity: void onResume()>";
+    "<android.app.Activity: void onResume()>";
+    "<com.Abby_Alex.LoveBARActivity: void onResume()>"->"<android.app.Activity: void onResume()>" [label="<com.Abby_Alex.LoveBARActivity: void onResume()>/<android.app.Activity: void onResume()>",];
+    "r0 := @this: com.Abby_Alex.LoveBARActivity";
+    "<com.Abby_Alex.LoveBARActivity: void onResume()>"->"r0 := @this: com.Abby_Alex.LoveBARActivity" [label="enter",];
+    "specialinvoke r0.<android.app.Activity: void onResume()>()";
+    "r0 := @this: com.Abby_Alex.LoveBARActivity"->"specialinvoke r0.<android.app.Activity: void onResume()>()" [label="body",];
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>";
+    "specialinvoke r0.<android.app.Activity: void onResume()>()"->"$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>" [label="body",];
+    "$r3 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>";
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>"->"$r3 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>" [label="body",];
+    "$r2 = virtualinvoke $r3.<android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)>(1)";
+    "$r3 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>"->"$r2 = virtualinvoke $r3.<android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)>(1)" [label="body",];
+    "virtualinvoke $r1.<android.hardware.SensorManager: boolean registerListener(android.hardware.SensorEventListener,android.hardware.Sensor,int)>(r0, $r2, 3)";
+    "$r2 = virtualinvoke $r3.<android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)>(1)"->"virtualinvoke $r1.<android.hardware.SensorManager: boolean registerListener(android.hardware.SensorEventListener,android.hardware.Sensor,int)>(r0, $r2, 3)" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onResume()>";
+    "virtualinvoke $r1.<android.hardware.SensorManager: boolean registerListener(android.hardware.SensorEventListener,android.hardware.Sensor,int)>(r0, $r2, 3)"->"return <com.Abby_Alex.LoveBARActivity: void onResume()>" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onResume()>"->"<com.Abby_Alex.LoveBARActivity: void onResume()>" [label="return",];
+}

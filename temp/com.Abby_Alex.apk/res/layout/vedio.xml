@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/surface" android:background="@drawable/vedio" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/vedio_start" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="开 始" />
+        <Button android:id="@id/vedio_stop" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="停 止" />
+        <Button android:id="@id/vedio_back" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="退 出" />
+    </LinearLayout>
+</RelativeLayout>

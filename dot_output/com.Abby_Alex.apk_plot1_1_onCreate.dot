@@ -1,0 +1,14 @@
+digraph "<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)> -" {
+    "<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>";
+    "<android.app.Activity: void onCreate(android.os.Bundle)>";
+    "<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>"->"<android.app.Activity: void onCreate(android.os.Bundle)>" [label="<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>/<android.app.Activity: void onCreate(android.os.Bundle)>",];
+    "r0 := @this: com.Abby_Alex.box_Activity";
+    "<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>"->"r0 := @this: com.Abby_Alex.box_Activity" [label="enter",];
+    "$r1 := @parameter0: android.os.Bundle";
+    "r0 := @this: com.Abby_Alex.box_Activity"->"$r1 := @parameter0: android.os.Bundle" [label="body",];
+    "specialinvoke r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)";
+    "$r1 := @parameter0: android.os.Bundle"->"specialinvoke r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)" [label="body",];
+    "return <com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>";
+    "specialinvoke r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)"->"return <com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>" [label="body",];
+    "return <com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>"->"<com.Abby_Alex.box_Activity: void onCreate(android.os.Bundle)>" [label="return",];
+}

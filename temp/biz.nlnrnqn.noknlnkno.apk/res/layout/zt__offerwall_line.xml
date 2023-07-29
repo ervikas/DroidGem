@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/zt__img_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/zt__btn_down" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/zt__down" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff4a5364" android:id="@id/zt__tv_name" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/zt__btn_down" android:layout_toRightOf="@id/zt__img_icon" android:layout_alignParentTop="true" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffff9710" android:id="@id/zt__tv_coolword" android:paddingLeft="12.0dip" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/zt__btn_down" android:layout_toRightOf="@id/zt__img_icon" android:layout_below="@id/zt__tv_name" />
+    <TextView android:textSize="10.0dip" android:textColor="#ff606c86" android:id="@id/zt__tv_action" android:paddingLeft="12.0dip" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/zt__btn_down" android:layout_toRightOf="@id/zt__img_icon" android:layout_below="@id/zt__tv_coolword" />
+</RelativeLayout>

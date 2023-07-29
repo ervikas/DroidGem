@@ -1,0 +1,9 @@
+APK,WID,Widget,Layout,Parent
+com.Abby_Alex.apk,0x7f060001,audio_image,audio.xml,"<com.Abby_Alex.audio_Activity: void onClick(android.view.View)>"
+com.Abby_Alex.apk,0x7f060025,dialog_edit_text,set_dialog.xml,"<com.Abby_Alex.set_Activity: void onClick(android.view.View)>"
+com.Abby_Alex.apk,0x7f060029,vedio_start,vedio.xml,"<com.Abby_Alex.vedio_Activity: void onClick(android.view.View)>"
+com.Abby_Alex.apk,~lifecycle,onCreate,main.xml,"<com.Abby_Alex.LoveBARActivity: void onCreate(android.os.Bundle)>"
+com.Abby_Alex.apk,~lifecycle,onCreate,~undefined,"<com.waps.OffersWebView: void onCreate(android.os.Bundle)>"
+com.Abby_Alex.apk,~lifecycle,onDestroy,main.xml,"<com.Abby_Alex.LoveBARActivity: void onDestroy()>"
+com.Abby_Alex.apk,~undefined,~undefined,~undefined,"<com.waps.OffersWebView: void b()>"
+com.Abby_Alex.apk,~undefined,~undefined,~undefined,"<com.waps.OffersWebView: void c(com.waps.OffersWebView)>"

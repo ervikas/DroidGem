@@ -1,0 +1,6 @@
+APK,WID,Widget,Layout,Parent,Method,Permission
+com.Abby_Alex.apk,0x7f060001,audio_image,audio.xml,"<com.Abby_Alex.audio_Activity: void onClick(android.view.View)>","<android.media.MediaRecorder: void setAudioSource(int)>","<android.permission.RECORD_AUDIO>"
+com.Abby_Alex.apk,0x7f060029,vedio_start,vedio.xml,"<com.Abby_Alex.vedio_Activity: void onClick(android.view.View)>","<android.media.MediaRecorder: void setAudioSource(int)>","<android.permission.RECORD_AUDIO>"
+com.Abby_Alex.apk,0x7f060029,vedio_start,vedio.xml,"<com.Abby_Alex.vedio_Activity: void onClick(android.view.View)>","<android.media.MediaRecorder: void setVideoSource(int)>","<android.permission.CAMERA>"
+com.Abby_Alex.apk,~undefined,~undefined,~undefined,"<com.waps.OffersWebView: void b()>","<java.net.URL: java.net.URLConnection openConnection()>","<android.permission.INTERNET>"
+com.Abby_Alex.apk,~undefined,~undefined,~undefined,"<com.waps.OffersWebView: void c(com.waps.OffersWebView)>","<java.net.URL: java.net.URLConnection openConnection()>","<android.permission.INTERNET>"

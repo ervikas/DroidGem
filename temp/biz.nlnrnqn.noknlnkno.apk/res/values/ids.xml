@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tv_title" />
+    <item type="id" name="img_splash" />
+    <item type="id" name="progress_loading" />
+    <item type="id" name="tv_intro" />
+    <item type="id" name="img_switcher" />
+    <item type="id" name="tv_pos" />
+    <item type="id" name="zt__img_back" />
+    <item type="id" name="zt__title_sep" />
+    <item type="id" name="zt__tv_name" />
+    <item type="id" name="zt__img_icon" />
+    <item type="id" name="zt__btn_down" />
+    <item type="id" name="zt__tv_action" />
+    <item type="id" name="zt__tv_version" />
+    <item type="id" name="zt__tv_size" />
+    <item type="id" name="zt__tv_coolword" />
+    <item type="id" name="zt__tv_intro" />
+    <item type="id" name="zt__img_sc1" />
+    <item type="id" name="zt__img_sc2" />
+    <item type="id" name="zt__btn_down_w" />
+    <item type="id" name="zt__tv_provider" />
+    <item type="id" name="zt__tv_title" />
+    <item type="id" name="zt__lv_list" />
+    <item type="id" name="cmd_back" />
+    <item type="id" name="cmd_option_menu" />
+    <item type="id" name="debug_setloc" />
+    <item type="id" name="cmd_to_first" />
+    <item type="id" name="cmd_set_wallpaper" />
+    <item type="id" name="cmd_fullscreen" />
+    <item type="id" name="cmd_exit" />
+    <item type="id" name="cmd_about" />
+</resources>

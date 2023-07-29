@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/miniAdLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_img_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/note" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="便 签" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_img_camrea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="拍 照" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_img_audio" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/recode" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="录 音" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_img_vedio" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/video" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="视 频" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="270.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_img_recode" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/history" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="我的记录" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/main_image_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/seting" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="设 置" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:id="@id/main_time" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="我们在一起247天了" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

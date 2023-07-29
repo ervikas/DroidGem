@@ -1,0 +1,21 @@
+digraph "<biz.nlnrnqn.noknlnkno.bt: void onDestroy()> -" {
+    "<biz.nlnrnqn.noknlnkno.bt: void onDestroy()>";
+    "<android.app.Service: void onDestroy()>";
+    "<biz.nlnrnqn.noknlnkno.bt: void onDestroy()>"->"<android.app.Service: void onDestroy()>" [label="<biz.nlnrnqn.noknlnkno.bt: void onDestroy()>/<android.app.Service: void onDestroy()>",];
+    "r0 := @this: biz.nlnrnqn.noknlnkno.bt";
+    "<biz.nlnrnqn.noknlnkno.bt: void onDestroy()>"->"r0 := @this: biz.nlnrnqn.noknlnkno.bt" [label="enter",];
+    "$r1 = r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a>";
+    "r0 := @this: biz.nlnrnqn.noknlnkno.bt"->"$r1 = r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a>" [label="body",];
+    "if $r1 == null goto r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null";
+    "$r1 = r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a>"->"if $r1 == null goto r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null" [label="body",];
+    "virtualinvoke $r1.<java.util.concurrent.ScheduledThreadPoolExecutor: java.util.List shutdownNow()>()";
+    "if $r1 == null goto r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null"->"virtualinvoke $r1.<java.util.concurrent.ScheduledThreadPoolExecutor: java.util.List shutdownNow()>()" [label="body",];
+    "r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null";
+    "virtualinvoke $r1.<java.util.concurrent.ScheduledThreadPoolExecutor: java.util.List shutdownNow()>()"->"r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null" [label="body",];
+    "specialinvoke r0.<android.app.Service: void onDestroy()>()";
+    "r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null"->"specialinvoke r0.<android.app.Service: void onDestroy()>()" [label="body",];
+    "return <biz.nlnrnqn.noknlnkno.bt: void onDestroy()>";
+    "specialinvoke r0.<android.app.Service: void onDestroy()>()"->"return <biz.nlnrnqn.noknlnkno.bt: void onDestroy()>" [label="body",];
+    "return <biz.nlnrnqn.noknlnkno.bt: void onDestroy()>"->"<biz.nlnrnqn.noknlnkno.bt: void onDestroy()>" [label="return",];
+    "if $r1 == null goto r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null"->"r0.<biz.nlnrnqn.noknlnkno.bt: java.util.concurrent.ScheduledThreadPoolExecutor a> = null" [label="body",];
+}

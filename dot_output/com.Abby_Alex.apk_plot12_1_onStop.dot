@@ -1,0 +1,20 @@
+digraph "<com.Abby_Alex.LoveBARActivity: void onStop()> -" {
+    "<com.Abby_Alex.LoveBARActivity: void onStop()>";
+    "<android.app.Activity: void onStop()>";
+    "<com.Abby_Alex.LoveBARActivity: void onStop()>"->"<android.app.Activity: void onStop()>" [label="<com.Abby_Alex.LoveBARActivity: void onStop()>/<android.app.Activity: void onStop()>",];
+    "r0 := @this: com.Abby_Alex.LoveBARActivity";
+    "<com.Abby_Alex.LoveBARActivity: void onStop()>"->"r0 := @this: com.Abby_Alex.LoveBARActivity" [label="enter",];
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>";
+    "r0 := @this: com.Abby_Alex.LoveBARActivity"->"$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>" [label="body",];
+    "virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)";
+    "$r1 = r0.<com.Abby_Alex.LoveBARActivity: android.hardware.SensorManager mSensorManager>"->"virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)" [label="body",];
+    "$r2 = r0.<com.Abby_Alex.LoveBARActivity: android.database.sqlite.SQLiteDatabase mSQlite>";
+    "virtualinvoke $r1.<android.hardware.SensorManager: void unregisterListener(android.hardware.SensorEventListener)>(r0)"->"$r2 = r0.<com.Abby_Alex.LoveBARActivity: android.database.sqlite.SQLiteDatabase mSQlite>" [label="body",];
+    "virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: void close()>()";
+    "$r2 = r0.<com.Abby_Alex.LoveBARActivity: android.database.sqlite.SQLiteDatabase mSQlite>"->"virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: void close()>()" [label="body",];
+    "specialinvoke r0.<android.app.Activity: void onStop()>()";
+    "virtualinvoke $r2.<android.database.sqlite.SQLiteDatabase: void close()>()"->"specialinvoke r0.<android.app.Activity: void onStop()>()" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onStop()>";
+    "specialinvoke r0.<android.app.Activity: void onStop()>()"->"return <com.Abby_Alex.LoveBARActivity: void onStop()>" [label="body",];
+    "return <com.Abby_Alex.LoveBARActivity: void onStop()>"->"<com.Abby_Alex.LoveBARActivity: void onStop()>" [label="return",];
+}

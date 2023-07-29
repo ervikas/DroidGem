@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/about_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/audio_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/audio1" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/audio_start" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="开 始" />
+        <Button android:id="@id/audio_stop" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="停 止" />
+        <Button android:id="@id/audio_back" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="退 出" />
+    </LinearLayout>
+</RelativeLayout>
