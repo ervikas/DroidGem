@@ -1,5 +1,5 @@
 # DroidGem
-DroidGem is a tool for permission forecasting in Android apps. It aims to provide fine-grain control of Android apps through unsupervised and supervised graph representation learning.
+DroidGem is a tool for permission forecasting in Android apps. It aims to provide fine-grain control of Android apps through unsupervised and supervised graph representation learning. DroidGem relies on mainly three technical components to offer an in-context classification for permission (mis)uses by Android apps for each functionality triggered by users: (1) static inter-procedural control-flow graphs and call graphs representing each functionality in an app that may be triggered by users’ or systems’ events through UI-linked event handlers, (2) graph embedding techniques converting graph structures into numerical encoding, and (3) supervised machine learning models classifying (mis)uses of permissions based on the embedding.
 
 ## Requirements
 
