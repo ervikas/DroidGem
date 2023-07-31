@@ -20,11 +20,11 @@ The workflow of DroidGem is shown in the following figure. Static analysis gener
     - scikit-learn 1.0.2
     - xgboost 1.5.2
 
-## Usage
+<!--## Usage
 The three phases of DroidGem are:
 1. Static Program Analysis
 2. Whole Graph Embedding
-3. Supervised Learning
+3. Supervised Learning-->
 
 
 ## Execution
@@ -61,6 +61,10 @@ Clone this repository to the computer and follow the following steps.
      - apm_output/g2v_embeddings_pred.txt
    - Output
      - Prediction result in terminal
+
+ ## Further information
+ - `g2v_embeddings_train.txt` and `g2v_labels_train.txt` are the files which we used for training. `g2v_embeddings_train.txt` contains the embedded graphs and         `g2v_labels_train.txt` contains labels for these graphs. Each line of `g2v_embeddings_train.txt` contains an embedded graph corresponding to which each line in the `g2v_labels_train.txt` contains its label. 
+     
 
 <!--- The first step is to run static analysis on Android apps, to get the API callgraph of the widgets as digraph plots.
 
