@@ -1,6 +1,11 @@
 # DroidGem
 DroidGem is a tool for permission forecasting in Android apps. It aims to provide fine-grain control of Android apps through unsupervised and supervised graph representation learning. DroidGem relies on mainly three technical components to offer an in-context classification for permission (mis)uses by Android apps for each functionality triggered by users: (1) static inter-procedural control-flow graphs and call graphs representing each functionality in an app that may be triggered by users’ or systems’ events through UI-linked event handlers, (2) graph embedding techniques converting graph structures into numerical encoding, and (3) supervised machine learning models classifying (mis)uses of permissions based on the embedding.
 
+The workflow of DroidGem is shown in the following figure. Static analysis generates call graphs in dot format. These generated dot files are then processed and cleaned for embedding. Graph embedding generated vectors which go for classification.
+
+![photo_2023-07-28_12-40-39](https://github.com/ervikas/DroidGem/assets/1435552/83716320-7ce5-444e-b5a5-839afeeef06e)
+
+
 ## Requirements
 
 - Android API: Level 30
@@ -24,21 +29,46 @@ The three phases of DroidGem are:
 
 ## Execution
 
-Clone this repository to your computer and make sure android-30 sdk platform is downloaded in your android sdk directory, and use your andorid sdk directory as input parameter for "runapm.sh".
+Clone this repository to the computer and follow the following steps.  
+<!--  make sure android-30 sdk platform is downloaded in your android sdk directory, and use your andorid sdk directory as input parameter for "runapm.sh".-->
 
-```sh
+<!--```sh
  sh runapm.sh "./your_android_sdk_dir"
-```   
+```-->   
 
+1. Make sure the Android SDK is installed on the computer. For example, the path is like "/home/<user_name>/Android/Sdk/” on Linux and "/Users/<user_name>/Library/Android/sdk" on Mac. (We tested the tool on Ubuntu and Mac only)
+2. Put the apk files in the "input" directory inside the cloned directory.
+3. Go to the cloned directory and run the following command. 
+   ```java -jar ./extract_callgraph.jar <Android_SDK_location>```
+4. Previous step will create three directories which are as follows: 
+    - **dot_output:** This directory contains the graphs in dot format.  
+    - **csv_output (folder) (optional):** This directory is created as part of the static analysis.
+    - **sootOutput (folder) (optional):** This directory is also an optional one which is created for the processing of apk files.
+    - **temp (folder) (optional):** This directory is also an optional one and is created for the processing of apk files.
+5. The next step is to refine the dot files and prepare them for embedding. For doing this run this command 
+   `python apm-gdot.py`. This python files needs **dot_output** directory as input and generates the output in the **dot_output** directory.
+6. Run python file with the command for embedding of graphs `python apm-gembed.py`. The input and output of this file are as follows:
+   - Input
+     - dot_output (directory): You don't need to provide it as an input from terminal. This location is hard-coded inside the 'apm-gembed.py' file.
+   - Output
+     - apm_output/g2v_names_pred.txt (file)
+     - apm_output/g2v_embeddings_pred.txt (file)
+7. The next step is ensemble classification. For this run this command `python apm-ensemble.py'. There is no need to provide inputs from the terminal as this is hard-coded inside the python file. Inputs and outputs of this step are as follows.
+   - Input
+     - g2v_embeddings_train.txt (provided in repo)
+     - g2v_labels_train.txt (provided in repo)
+     - apm_output/g2v_names_pred.txt
+     - apm_output/g2v_embeddings_pred.txt
+   - Output
+     - Prediction result in terminal
 
-
-- The first step is to run static analysis on Android apps, to get the API callgraph of the widgets as digraph plots.
+<!--- The first step is to run static analysis on Android apps, to get the API callgraph of the widgets as digraph plots.
 
 
 - The second and third steps are the Diagraph Data Analysis for prediction, the diagraph plots are pre-processed and whole graph embeddings are reproduced as text files (g2v_names_pred.txt and g2v_embeddings_pred.txt) in the apm-output folder.
 
 
-- The last one is Supervised Learning. The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files. In this case, the training data are provided in the main directory.
+- The last one is Supervised Learning. The Ensemble model is built with the whole graph embeddings and labels (train) text files to create prediction results with the whole graph embeddings (pred) text files. In this case, the training data are provided in the main directory.-->
 
 
 
