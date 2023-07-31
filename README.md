@@ -63,7 +63,8 @@ Clone this repository to the computer and follow the following steps.
      - Prediction result in terminal
 
  ## Further information
- - `g2v_embeddings_train.txt` and `g2v_labels_train.txt` are the files which we used for training. `g2v_embeddings_train.txt` contains the embedded graphs and         `g2v_labels_train.txt` contains labels for these graphs. Each line of `g2v_embeddings_train.txt` contains an embedded graph corresponding to which each line in the `g2v_labels_train.txt` contains its label. 
+ - `g2v_embeddings_train.txt` and `g2v_labels_train.txt` are the files which we used for training. `g2v_embeddings_train.txt` contains the embedded graphs and         `g2v_labels_train.txt` contains labels for these graphs. Each line of `g2v_embeddings_train.txt` contains an embedded graph corresponding to which each line in the `g2v_labels_train.txt` contains its label.
+ - We also provided two apk files in the `input` directory and also the repository contains all the directories and files after the sample run with these two apk files.
      
 
 <!--- The first step is to run static analysis on Android apps, to get the API callgraph of the widgets as digraph plots.
