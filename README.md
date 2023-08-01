@@ -66,6 +66,95 @@ Clone this repository to the computer and follow the following steps.
  - `g2v_embeddings_train.txt` and `g2v_labels_train.txt` are the files which we used for training. `g2v_embeddings_train.txt` contains the embedded graphs and         `g2v_labels_train.txt` contains labels for these graphs. Each line of `g2v_embeddings_train.txt` contains an embedded graph corresponding to which each line in the `g2v_labels_train.txt` contains its label.
  - We also provided two apk files in the `input` directory and also the repository contains all the directories and files after the sample run with these two apk files.
  - Due to the big size of the dot and apk files we are not able to upload them on GitHub repository. We made them available on [Google Drive] using this link: (https://drive.google.com/drive/folders/1IdAs-a76kqJ8WolcQRI04fksKyZhcKkA?usp=sharing).
+
+## Parameters of classifiers used in ensemble classification
+- k-Nearest Neighbors
+  - n_neighbors = 5
+  - weights = uniform
+  - leaf_size = 30
+  - p (power) = 2
+  - metric = Minkowski
+  - metric_params = none
+  - n_jobs = 1
+- AdaBoost
+  - estimator = DecisionTreeClassifier
+  - n_estimators = 50
+  - learning\_rate = 1.0
+  - algorithm = SAMME.R
+  - random\_state = None
+- Support Vector Machine
+  - C = 10
+  - kernel = rbf
+  - degree = 3
+  - gamma = scale
+  - shrinking = true
+  - probability = false
+  - tol = 1e-3
+  - cache_size = 200
+  - class_weight = 1
+  - verbose = false
+  - max_iter = -1
+  - decision_function_shape = ovr
+  - break_ties = false
+  - random_state = None
+- Gradient Boosting \begin{itemize}[noitemsep,topsep=0pt]
+  - loss = log_loss
+  - learning_rate = 0.1
+  - n_estimators = 100
+  - subsample = 1.0
+  - criterion = friedman\_mse
+  - min_samples_split = 2
+  - min_samples_leaf = 1
+  - min_weight_fraction_leaf = 0.0
+  - max_depth = 3
+  - min_impurity_decrease = 0.0
+  - init = None
+  - random_state = None
+  - max_features = None
+  - max_leaf_nodes = None
+  - warm_start = False
+  - validation_fraction = 0.1
+  - n_iter_no_change = None
+  - tol = 1e-4
+  - ccp_alpha = 0.0
+- Random Forest \begin{itemize}[noitemsep,topsep=0pt]
+  - n_estimators = 100
+  - criterion = gini
+  - max_depth = None
+  - min_samples_splitint = 2
+  - min_samples_leaf = 1
+  - min_weight_fraction_leaf = 0.0
+  - max_features = sqrt
+  - max_leaf_nodes = None
+  - min_impurity_decrease = 0.0
+  - bootstrap = True
+  - oob_score = False
+  - n_jobs = None
+  - random_state = None
+  - verbose = 0
+  - warm_start = False
+  - class_weight = None
+  - ccp_alpha = 0.0
+  - max_samples = None
+- Decision Tree \begin{itemize}[noitemsep,topsep=0pt]
+  - criterion = gini
+  - splitter = best
+  - max_depth = None
+  - min_samples_split = 2
+  - min_samples_leaf = 1
+  - min_weight_fraction_leaf = 0
+  - max_features = None (number of features)
+  - random_state = None
+  - max_leaf_nodes = None
+  - min_impurity_decrease =0.0
+  - class_weight = None
+- eXtreme Gradient Boosting \begin{itemize}[noitemsep,topsep=0pt]
+  - booster = gbtree
+  - verbosity = 1
+  - validate_parameters = false
+  - nthread = default
+  - disable_default_eval_metric = false
+  - num_feature = default (set automatically by XGBoost)
      
 
 <!--- The first step is to run static analysis on Android apps, to get the API callgraph of the widgets as digraph plots.
