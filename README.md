@@ -97,7 +97,7 @@ Clone this repository to the computer and follow the following steps.
   - decision_function_shape = ovr
   - break_ties = false
   - random_state = None
-- Gradient Boosting \begin{itemize}[noitemsep,topsep=0pt]
+- Gradient Boosting
   - loss = log_loss
   - learning_rate = 0.1
   - n_estimators = 100
@@ -117,7 +117,7 @@ Clone this repository to the computer and follow the following steps.
   - n_iter_no_change = None
   - tol = 1e-4
   - ccp_alpha = 0.0
-- Random Forest \begin{itemize}[noitemsep,topsep=0pt]
+- Random Forest
   - n_estimators = 100
   - criterion = gini
   - max_depth = None
@@ -136,7 +136,7 @@ Clone this repository to the computer and follow the following steps.
   - class_weight = None
   - ccp_alpha = 0.0
   - max_samples = None
-- Decision Tree \begin{itemize}[noitemsep,topsep=0pt]
+- Decision Tree 
   - criterion = gini
   - splitter = best
   - max_depth = None
@@ -148,7 +148,7 @@ Clone this repository to the computer and follow the following steps.
   - max_leaf_nodes = None
   - min_impurity_decrease =0.0
   - class_weight = None
-- eXtreme Gradient Boosting \begin{itemize}[noitemsep,topsep=0pt]
+- eXtreme Gradient Boosting 
   - booster = gbtree
   - verbosity = 1
   - validate_parameters = false
