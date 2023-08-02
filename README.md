@@ -3,7 +3,7 @@ DroidGem is a tool for permission forecasting in Android apps. It aims to provid
 
 The workflow of DroidGem is shown in the following figure. Static analysis generates call graphs in dot format. These generated dot files are then processed and cleaned for embedding. Graph embedding generated vectors which go for classification.
 
-![photo_2023-07-28_12-40-39](https://github.com/ervikas/DroidGem/assets/1435552/83716320-7ce5-444e-b5a5-839afeeef06e)
+![DroidGem Workflow](https://github.com/ervikas/DroidGem/blob/main/photo_2023-08-02_12-33-35.jpg)
 
 
 ## Requirements
